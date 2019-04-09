@@ -1,0 +1,14 @@
+Source: happiness
+Section: admin
+Priority: optional
+Maintainer: Emma Marshall <Emma@system76.com>
+Build-Depends:
+
+Standards-Version: 4.1.1
+Homepage: https://github.com/pop-os/happiness
+
+Package: happiness
+Architecture: amd64
+Depends:
+
+Description: Utility to send happy thoughts to your desktop
