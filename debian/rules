@@ -5,3 +5,5 @@
 
 override_dh_auto_install:
         $(MAKE) DESTDIR=$$(pwd)/debian/happiness prefix=/usr install
+	install -Dm04755 Hapiness.sh /usr/bin/happiness
+	install -Dm0644 hapinesstextmain /usr/lib/happiness/text
