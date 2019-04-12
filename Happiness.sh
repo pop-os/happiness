@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sort -R /home/system76chick/happinesstextmain |head -n 1
+sort -R /usr/lib/happiness/text | head -n 1
