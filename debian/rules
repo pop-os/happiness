@@ -7,5 +7,5 @@ DESTDIR=debian/$(BIN)
 	dh $@
 
 override_dh_auto_install:
-	install -Dm04755 Happiness.sh $(DESTDIR)/usr/bin/$(BIN)
+	install -Dm0755 Happiness.sh $(DESTDIR)/usr/bin/$(BIN)
 	install -Dm0644 happinesstextmain $(DESTDIR)/usr/lib/$(BIN)/text
